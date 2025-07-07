@@ -1,19 +1,57 @@
-# YOBEX
+# 🛍️ YOBEX – Modern E-Commerce Platform  
+### Kullanıcı dostu, mobil uyumlu ve tam özellikli bir alışveriş uygulaması  
+### A full-featured, responsive & user-friendly e-commerce application
 
-**Proje Tanımı:**
+---
 
-YOBEX, kullanıcıların kolayca alışveriş yapabilmesi için tasarlanmış bir e-ticaret platformudur. Kullanıcılar, siteye üye olup kayıt olabilir, giriş yaparak alışverişlerini başlatabilirler. Ürünler listelenebilir, aranabilir ve detaylarına göz atılabilir. Kullanıcılar ürünleri sepete ekleyebilir, sepetlerini görüntüleyip güncelleyebilirler. Alışverişi tamamladıktan sonra ödeme işlemi gerçekleştirilir ve sipariş onaylanır. Ürünler kategorilere göre filtrelenebilir ve sıralanabilir. Kullanıcılar, favori ürünlerini kaydedebilir, indirim kampanyalarından haberdar olabilir ve alışveriş geçmişini görüntüleyebilirler. Ayrıca, iade talebi oluşturulabilir ve bakiye sorgulanabilir. Misafir olarak da alışveriş yapılabilir. İlgili ürün önerileri sayesinde kullanıcılar daha fazla seçenek keşfeder. Hızlı satın alma seçeneği ile işlemler daha da kolaylaştırılır.
+## 📌 Proje Tanımı | Project Description
 
-**Proje Kategorisi:** E-Ticaret
+YOBEX, kullanıcıların kolayca alışveriş yapabilmesi için tasarlanmış modern bir e-ticaret platformudur.  
+Kullanıcılar kayıt olabilir, ürünleri listeleyip detaylarını görebilir, sepete ekleyebilir ve sipariş verebilir.  
+Favori ürün ekleme, kampanya takip, bakiye kontrol, hızlı satın alma gibi gelişmiş özellikler içerir.  
+Misafir kullanıcılar da sipariş oluşturabilir.  
 
-**Referans Uygulama:** [hepsiburada](https://www.hepsiburada.com)
+YOBEX is a modern e-commerce platform designed for a seamless shopping experience.  
+Users can register, browse products by category, add to cart, and complete orders.  
+Features include favorites, promo tracking, balance inquiry, fast checkout, and even guest checkout support.
 
-**Uygulama Adresi:** [YOBEX](https://yobex.vercel.app)
+---
 
+## 🧩 Özellikler | Key Features
 
+- 🔐 Kullanıcı kayıt ve giriş sistemi | User authentication (JWT)
+- 🛒 Sepet yönetimi | Shopping cart
+- 📦 Sipariş ve ödeme akışı | Order & payment flow
+- 🏷️ Kategori ve filtreleme | Category-based filtering
+- ❤️ Favori ürünler | Favorite items
+- 🔁 İade talebi | Return request
+- 🧾 Alışveriş geçmişi | Order history
+- 👥 Misafir kullanıcı desteği | Guest checkout support
 
+---
 
-1. [Gereksinim Analizi](GereksinimAnalizi.md)
-2. [Front-End](Front-End.md)
-3. [Back-End](Back-End.md)
+## ⚙️ Kullanılan Teknolojiler | Technologies Used
 
+**Frontend:**
+- React, Tailwind CSS, Redux Toolkit, React Router
+
+**Backend:**
+- Node.js, Express.js, MongoDB, JWT
+
+---
+
+## 🧠 Gereksinim Analizi ve Dokümantasyon | Docs
+
+- [📄 Gereksinim Analizi](./GereksinimAnalizi.md)
+- [⚙️ Front-End Yapısı](./Front-End.md)
+- [🛠️ Back-End Yapısı](./Back-End.md)
+
+---
+
+## 🗂️ Kullanım Senaryosu Diyagramı | Use Case Diagram
+
+![Use Case](./images/YOBEX%20UseCase%20Diyagramı.png)
+
+> Görsel açılmıyorsa: [Dosyaya Git](./images/YOBEX%20UseCase%20Diyagramı.png)
+
+---
